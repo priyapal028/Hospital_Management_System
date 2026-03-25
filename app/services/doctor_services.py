@@ -1,5 +1,5 @@
-from database.database import SessionLocal
-from models.doctor_model import Doctor
+from app.database.database import SessionLocal
+from app.models.doctor_model import Doctor
 
 def create_doctor(data):
     db = SessionLocal()

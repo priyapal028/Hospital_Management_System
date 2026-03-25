@@ -1,5 +1,5 @@
-from database.database import SessionLocal
-from models.appointment_model import Appointment
+from app.database.database import SessionLocal
+from app.models.appointment_model import Appointment
 
 def create_appointment(data):
     db = SessionLocal()

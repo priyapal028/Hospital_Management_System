@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from schemas.patients_schema import PatientCreate
-from services.patient_services import create_patient, get_all_patients, update_patient, delete_patient
+from app.schemas.patients_schema import PatientCreate
+from app.services.patient_services import create_patient, get_all_patients, update_patient, delete_patient
 
 router = APIRouter(prefix="/patients", tags=["Patients"])
 
